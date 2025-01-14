@@ -352,20 +352,19 @@
 }
 
 .footer__column_content_hours {
-  margin-right: 80px;
-  margin-left: 0;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
   margin: 0;
-  margin-left: 0;
+  margin-left: 80px;
   justify-content: flex-end;
 }
 
 .footer__logo {
   margin: 0;
-  max-width: 80px;
-  max-height: 58px;
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
@@ -389,9 +388,8 @@
 .footer__column-link {
   display: flex;
   align-items: center;
-  column-gap: 0;
+  column-gap: 10px;
   text-decoration: none;
-  margin-left: 10px;
   color: white;
 }
 
