@@ -353,17 +353,19 @@
 
 .footer__column_content_hours {
   margin-right: 80px;
+  margin-left: 0;
 }
 
 .footer__column_content_social {
   margin: 0;
+  margin-left: 0;
   justify-content: flex-end;
 }
 
 .footer__logo {
   margin: 0;
-  max-width: 58px;
-  max-height: 80px;
+  max-width: 80px;
+  max-height: 58px;
 }
 
 .footer__column-heading {
@@ -385,6 +387,9 @@
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
+  column-gap: 0;
   text-decoration: none;
   margin-left: 10px;
   color: white;
