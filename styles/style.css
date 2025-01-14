@@ -343,22 +343,25 @@
 }
 
 .footer__columns {
-  position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
+
 .footer__column {
-  position: absolute;
+  margin-right: auto;
 }
 
 .footer__column_content_hours {
-  align-items: flex-start;
-  right: 256.1px;
+  margin-right: 80px;
 }
 
 .footer__column_content_social {
-  right: 0;
+  margin: 0;
+  justify-content: flex-end;
 }
 
 .footer__logo {
+  margin: 0;
   max-width: 58px;
   max-height: 80px;
 }
@@ -388,10 +391,11 @@
 }
 
 .footer__social-icon {
-  max-width: 16px;
-  max-height: 16px;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
-  margin-top: 180px;
+  margin-top: 100px;
 }
